@@ -1,4 +1,5 @@
-./Logs
-./Library
+Logs/
+Library/
+.DS_Store
 Assembly-CSharp.csproj
 FPSGame.sln
