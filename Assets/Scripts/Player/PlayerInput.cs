@@ -35,8 +35,8 @@ public class PlayerInput : MonoBehaviour
         // y 轴
         float yMouse = Input.GetAxisRaw("Mouse Y");
 
-        Vector3 xRotation = new Vector3(-yMouse * lookSensitivity, 0.0f, 0.0f);
-        Vector3 yRotation = new Vector3(0.0f, xMouse * lookSensitivity, 0.0f);
+        Vector3 xRotation = new Vector3(-yMouse * lookSensitivity, 0.0f, 0.0f) * lookSensitivity;
+        Vector3 yRotation = new Vector3(0.0f, xMouse * lookSensitivity, 0.0f) * lookSensitivity;
         
         playerController.SetRotation(xRotation, yRotation);
     }
