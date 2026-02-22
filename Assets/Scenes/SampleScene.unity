@@ -132,7 +132,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 144fafb731a4b4944b48596f3688afb4, type: 3}
       propertyPath: m_Name
-      value: PTK_Cube_1 (1)
+      value: BlackBox
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 144fafb731a4b4944b48596f3688afb4, type: 3}
       propertyPath: m_LocalScale.x
@@ -236,8 +236,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 820, y: 62}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 889.5824, y: 304.21094}
+  m_SizeDelta: {x: 123.5183, y: 17.2867}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &124323122
 MonoBehaviour:
@@ -367,7 +367,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 144fafb731a4b4944b48596f3688afb4, type: 3}
       propertyPath: m_Name
-      value: PTK_Cube_1
+      value: BlueBox
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 144fafb731a4b4944b48596f3688afb4, type: 3}
       propertyPath: m_LocalScale.x
@@ -804,8 +804,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 820, y: 274}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 891.7955, y: 438.68347}
+  m_SizeDelta: {x: 119.6492, y: 19.4977}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &894680993
 MonoBehaviour:
@@ -1151,6 +1151,50 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1474179777}
   m_CullTransparentMesh: 1
+--- !u!1 &1554610062
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1554610063}
+  - component: {fileID: 1554610064}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1554610063
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1554610062}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.1937993, y: 1.2174492, z: 0.07970466}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1554610064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1554610062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed284c481d38df24da432db63bd515b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1675706584
 GameObject:
   m_ObjectHideFlags: 0
@@ -1187,8 +1231,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 820, y: 486}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 892.9, y: 574}
+  m_SizeDelta: {x: 123.5184, y: 18.945}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1675706586
 MonoBehaviour:
@@ -1282,7 +1326,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 6cfb80454aee73840b7e1a3bb551ea1b, type: 3}
       propertyPath: m_Name
-      value: PTK_Cuboid_5
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6cfb80454aee73840b7e1a3bb551ea1b, type: 3}
       propertyPath: m_LocalScale.x
@@ -1360,7 +1404,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 144fafb731a4b4944b48596f3688afb4, type: 3}
       propertyPath: m_Name
-      value: PTK_Cube_1 (2)
+      value: YellowBox
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 144fafb731a4b4944b48596f3688afb4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1538,3 +1582,4 @@ SceneRoots:
   - {fileID: 2116601787}
   - {fileID: 946516784}
   - {fileID: 445790246}
+  - {fileID: 1554610063}

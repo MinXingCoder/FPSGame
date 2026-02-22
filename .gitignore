@@ -3,3 +3,8 @@ Library/
 .DS_Store
 Assembly-CSharp.csproj
 FPSGame.sln
+.idea/
+.vs/
+obj/
+Temp/
+.vsconfig
